@@ -13,7 +13,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-ENV PORT=8083
 EXPOSE 8083
 #CMD [ "node", "server.js" ]
 CMD [ "npm", "start" ]
